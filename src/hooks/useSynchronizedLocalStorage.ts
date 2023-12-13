@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 
 export const useSynchronizedLocalStorage = (label: string, entity: unknown) => {
   useEffect(() => {
