@@ -1,0 +1,8 @@
+.list {
+  max-width: 40rem;
+  padding: var(--size-m);
+  width: 100%;
+}
+.item:not(:last-child) {
+  box-shadow: inset 0 calc(-1 * var(--size-xs)) 0 var(--accent-color-50);
+}

@@ -1,0 +1,22 @@
+.button {
+  padding: var(--size-s) var(--size-m);
+  border: none;
+  color: var(--txt-inverted-color);
+  border-radius: var(--radius);
+  background: var(--accent-color-900);
+  transition: background-color 0.1s ease, outline 0.1s ease;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  font-size: 1rem;
+  cursor: pointer;
+
+  &:disabled {
+    background: var(--accent-color-600);
+  }
+  &:hover {
+    background: var(--accent-color-800);
+  }
+  &:focus {
+    outline: var(--outline-size) solid var(--accent-color-100);
+  }
+}

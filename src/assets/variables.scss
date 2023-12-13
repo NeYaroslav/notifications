@@ -1,0 +1,18 @@
+#root {
+  --size-l: calc(var(--size-m) * 1.5);
+  --size-m: 1rem;
+  --size-s: calc(var(--size-m) / 2);
+  --size-xs: calc(var(--size-m) / 6);
+  // colors
+  --accent-color-900: #2825bf;
+  --accent-color-800: #5f29ce;
+  --accent-color-700: #762cd5;
+  --accent-color-600: #8e30dd;
+  --accent-color-100: #e3c2f7;
+  --accent-color-50: #f4e7fc;
+
+  --txt-inverted-color: #fff;
+
+  --radius: calc(var(--size-m) / 8);
+  --outline-size: calc(var(--size-m) / 3);
+}

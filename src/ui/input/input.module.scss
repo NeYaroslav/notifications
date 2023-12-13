@@ -1,0 +1,26 @@
+.input {
+  padding: var(--size-s) var(--size-m);
+  border: none;
+  color: var(--txt-inverted-color);
+  border-radius: var(--radius);
+  transition: background-color 0.1s ease, outline 0.1s ease;
+  max-width: 100%;
+  box-shadow: inset 0 0 0 var(--size-xs) currentColor;
+  color: var(--accent-color-900);
+
+  &::placeholder {
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    font-size: 1rem;
+  }
+  &:disabled {
+    color: var(--accent-color-600);
+  }
+  &:hover,
+  &:focus-visible {
+    color: var(--accent-color-800);
+  }
+  &:focus {
+    outline: var(--outline-size) solid var(--accent-color-100);
+  }
+}

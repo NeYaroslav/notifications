@@ -1,0 +1,16 @@
+.form {
+  display: flex;
+  gap: var(--size-l);
+  flex-direction: column;
+  max-width: 20rem;
+  width: 100%;
+  padding: var(--size-m);
+}
+.checkbox-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  .checkbox {
+    margin-right: var(--size-s);
+  }
+}
